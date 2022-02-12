@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8243488027B7ED4000C79157 /* KiliaroTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243487F27B7ED4000C79157 /* KiliaroTestApp.swift */; };
+		8243488227B7ED4000C79157 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243488127B7ED4000C79157 /* ContentView.swift */; };
+		8243488427B7ED4300C79157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8243488327B7ED4300C79157 /* Assets.xcassets */; };
+		8243488727B7ED4300C79157 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8243488627B7ED4300C79157 /* Preview Assets.xcassets */; };
+		8243489127B7ED4300C79157 /* KiliaroTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243489027B7ED4300C79157 /* KiliaroTestTests.swift */; };
+		8243489B27B7ED4300C79157 /* KiliaroTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243489A27B7ED4300C79157 /* KiliaroTestUITests.swift */; };
+		8243489D27B7ED4300C79157 /* KiliaroTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243489C27B7ED4300C79157 /* KiliaroTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8243488D27B7ED4300C79157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8243487427B7ED4000C79157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8243487B27B7ED4000C79157;
+			remoteInfo = KiliaroTest;
+		};
+		8243489727B7ED4300C79157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8243487427B7ED4000C79157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8243487B27B7ED4000C79157;
+			remoteInfo = KiliaroTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8243487C27B7ED4000C79157 /* KiliaroTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiliaroTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8243487F27B7ED4000C79157 /* KiliaroTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliaroTestApp.swift; sourceTree = "<group>"; };
+		8243488127B7ED4000C79157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8243488327B7ED4300C79157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8243488627B7ED4300C79157 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8243488C27B7ED4300C79157 /* KiliaroTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiliaroTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8243489027B7ED4300C79157 /* KiliaroTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliaroTestTests.swift; sourceTree = "<group>"; };
+		8243489627B7ED4300C79157 /* KiliaroTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiliaroTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8243489A27B7ED4300C79157 /* KiliaroTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliaroTestUITests.swift; sourceTree = "<group>"; };
+		8243489C27B7ED4300C79157 /* KiliaroTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliaroTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8243487927B7ED4000C79157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243488927B7ED4300C79157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243489327B7ED4300C79157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8243487327B7ED4000C79157 = {
+			isa = PBXGroup;
+			children = (
+				8243487E27B7ED4000C79157 /* KiliaroTest */,
+				8243488F27B7ED4300C79157 /* KiliaroTestTests */,
+				8243489927B7ED4300C79157 /* KiliaroTestUITests */,
+				8243487D27B7ED4000C79157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8243487D27B7ED4000C79157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8243487C27B7ED4000C79157 /* KiliaroTest.app */,
+				8243488C27B7ED4300C79157 /* KiliaroTestTests.xctest */,
+				8243489627B7ED4300C79157 /* KiliaroTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8243487E27B7ED4000C79157 /* KiliaroTest */ = {
+			isa = PBXGroup;
+			children = (
+				8243487F27B7ED4000C79157 /* KiliaroTestApp.swift */,
+				8243488127B7ED4000C79157 /* ContentView.swift */,
+				8243488327B7ED4300C79157 /* Assets.xcassets */,
+				8243488527B7ED4300C79157 /* Preview Content */,
+			);
+			path = KiliaroTest;
+			sourceTree = "<group>";
+		};
+		8243488527B7ED4300C79157 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8243488627B7ED4300C79157 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8243488F27B7ED4300C79157 /* KiliaroTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8243489027B7ED4300C79157 /* KiliaroTestTests.swift */,
+			);
+			path = KiliaroTestTests;
+			sourceTree = "<group>";
+		};
+		8243489927B7ED4300C79157 /* KiliaroTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8243489A27B7ED4300C79157 /* KiliaroTestUITests.swift */,
+				8243489C27B7ED4300C79157 /* KiliaroTestUITestsLaunchTests.swift */,
+			);
+			path = KiliaroTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8243487B27B7ED4000C79157 /* KiliaroTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824348A027B7ED4400C79157 /* Build configuration list for PBXNativeTarget "KiliaroTest" */;
+			buildPhases = (
+				8243487827B7ED4000C79157 /* Sources */,
+				8243487927B7ED4000C79157 /* Frameworks */,
+				8243487A27B7ED4000C79157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiliaroTest;
+			productName = KiliaroTest;
+			productReference = 8243487C27B7ED4000C79157 /* KiliaroTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8243488B27B7ED4300C79157 /* KiliaroTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824348A327B7ED4400C79157 /* Build configuration list for PBXNativeTarget "KiliaroTestTests" */;
+			buildPhases = (
+				8243488827B7ED4300C79157 /* Sources */,
+				8243488927B7ED4300C79157 /* Frameworks */,
+				8243488A27B7ED4300C79157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8243488E27B7ED4300C79157 /* PBXTargetDependency */,
+			);
+			name = KiliaroTestTests;
+			productName = KiliaroTestTests;
+			productReference = 8243488C27B7ED4300C79157 /* KiliaroTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8243489527B7ED4300C79157 /* KiliaroTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824348A627B7ED4400C79157 /* Build configuration list for PBXNativeTarget "KiliaroTestUITests" */;
+			buildPhases = (
+				8243489227B7ED4300C79157 /* Sources */,
+				8243489327B7ED4300C79157 /* Frameworks */,
+				8243489427B7ED4300C79157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8243489827B7ED4300C79157 /* PBXTargetDependency */,
+			);
+			name = KiliaroTestUITests;
+			productName = KiliaroTestUITests;
+			productReference = 8243489627B7ED4300C79157 /* KiliaroTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8243487427B7ED4000C79157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8243487B27B7ED4000C79157 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8243488B27B7ED4300C79157 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8243487B27B7ED4000C79157;
+					};
+					8243489527B7ED4300C79157 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8243487B27B7ED4000C79157;
+					};
+				};
+			};
+			buildConfigurationList = 8243487727B7ED4000C79157 /* Build configuration list for PBXProject "KiliaroTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8243487327B7ED4000C79157;
+			productRefGroup = 8243487D27B7ED4000C79157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8243487B27B7ED4000C79157 /* KiliaroTest */,
+				8243488B27B7ED4300C79157 /* KiliaroTestTests */,
+				8243489527B7ED4300C79157 /* KiliaroTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8243487A27B7ED4000C79157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243488727B7ED4300C79157 /* Preview Assets.xcassets in Resources */,
+				8243488427B7ED4300C79157 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243488A27B7ED4300C79157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243489427B7ED4300C79157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8243487827B7ED4000C79157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243488227B7ED4000C79157 /* ContentView.swift in Sources */,
+				8243488027B7ED4000C79157 /* KiliaroTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243488827B7ED4300C79157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243489127B7ED4300C79157 /* KiliaroTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243489227B7ED4300C79157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243489D27B7ED4300C79157 /* KiliaroTestUITestsLaunchTests.swift in Sources */,
+				8243489B27B7ED4300C79157 /* KiliaroTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8243488E27B7ED4300C79157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8243487B27B7ED4000C79157 /* KiliaroTest */;
+			targetProxy = 8243488D27B7ED4300C79157 /* PBXContainerItemProxy */;
+		};
+		8243489827B7ED4300C79157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8243487B27B7ED4000C79157 /* KiliaroTest */;
+			targetProxy = 8243489727B7ED4300C79157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8243489E27B7ED4400C79157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8243489F27B7ED4400C79157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		824348A127B7ED4400C79157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiliaroTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SAUD8H4S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.marsxan.KiliaroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		824348A227B7ED4400C79157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiliaroTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SAUD8H4S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.marsxan.KiliaroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		824348A427B7ED4400C79157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAUD8H4S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.marsxan.KiliaroTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiliaroTest.app/KiliaroTest";
+			};
+			name = Debug;
+		};
+		824348A527B7ED4400C79157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAUD8H4S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.marsxan.KiliaroTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiliaroTest.app/KiliaroTest";
+			};
+			name = Release;
+		};
+		824348A727B7ED4400C79157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAUD8H4S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.marsxan.KiliaroTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiliaroTest;
+			};
+			name = Debug;
+		};
+		824348A827B7ED4400C79157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAUD8H4S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.marsxan.KiliaroTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiliaroTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8243487727B7ED4000C79157 /* Build configuration list for PBXProject "KiliaroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8243489E27B7ED4400C79157 /* Debug */,
+				8243489F27B7ED4400C79157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824348A027B7ED4400C79157 /* Build configuration list for PBXNativeTarget "KiliaroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824348A127B7ED4400C79157 /* Debug */,
+				824348A227B7ED4400C79157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824348A327B7ED4400C79157 /* Build configuration list for PBXNativeTarget "KiliaroTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824348A427B7ED4400C79157 /* Debug */,
+				824348A527B7ED4400C79157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824348A627B7ED4400C79157 /* Build configuration list for PBXNativeTarget "KiliaroTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824348A727B7ED4400C79157 /* Debug */,
+				824348A827B7ED4400C79157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8243487427B7ED4000C79157 /* Project object */;
+}
