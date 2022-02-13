@@ -79,7 +79,7 @@ we can easily delete and add features to this package without any complaints by 
 
 | Empty        | Error           | Loading           |
 | ------------- |:-------------:|:-------------:|
-| ![image](docAssetts/empty.png)      |  ![image](docAssetts/Error.png)  |  ![image](docAssetts/Loading.png)  | 
+| ![image](docAssetts/empty.png)      |  ![image](docAssetts/error.png)  |  ![image](docAssetts/loading.png)  | 
 
 
 - Preview for all View
