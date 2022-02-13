@@ -8,15 +8,26 @@
 import SwiftUI
 
 struct MainView: View {
-    var tabs:[CustomTab] = [.init(type: .albums, image: "Albums"),.init(type: .local, image: "Locals"),.init(type: .home, image: "Home"),.init(type: .live, image: "Live"),.init(type: .profile, image: "Profile")]
+    @ObservedObject var viewModel: MainViewModel = MainViewModel()
+    var tabs:[CustomTab] = [
+        .init(type: .albums, image: "Albums"),
+        .init(type: .local, image: "Locals"),
+        .init(type: .home, image: "Home"),
+        .init(type: .live, image: "Live"),
+        .init(type: .profile, image: "Profile")
+    ]
     
     @State var selectedTab:CustomTabType = .albums
     var body: some View {
-       
+        
         VStack{
             content
             Spacer()
-            CustomTabView(selectedTab: $selectedTab,tabs: tabs)
+            if(viewModel.isBottomNavVisible)
+            {
+                CustomTabView(selectedTab: $selectedTab,tabs: tabs)
+                
+            }
             
         }
     }
@@ -27,13 +38,14 @@ struct MainView: View {
         case .albums:
             return AlbumListView().eraseToAnyView()
         case .local:
-           return LocalView().eraseToAnyView()
+            return LocalView().eraseToAnyView()
         case .home:
             return HomeView().eraseToAnyView()
         case .live:
             return ShareView().eraseToAnyView()
         case .profile:
-            return ProfileView().eraseToAnyView()
+            return ProfileView().environmentObject(viewModel).eraseToAnyView()
+                
         }
     }
 }
@@ -41,6 +53,6 @@ struct MainView: View {
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()
-           
+        
     }
 }

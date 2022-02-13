@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @Environment(\.presentationMode) var present
+    @EnvironmentObject var viewModel: MainViewModel
     
     var body: some View {
         NavigationView{
@@ -32,8 +32,9 @@ struct ProfileView: View {
                     
                     VStack{
                         NavigationLink(destination:
-                                SettingView()) {
+                                SettingView().environmentObject(viewModel)) {
                             MenuItem(title: "Setting", icon: "Setting")
+                                
                         }
                         
                         MenuItem(title: "FAQ", icon: "Ticket")
@@ -53,8 +54,11 @@ struct ProfileView: View {
                     
                 }
                 }.padding()
+                    .onAppear{
+                        viewModel.isBottomNavVisible = true
+                    }
             }
-            .background(Color.white.edgesIgnoringSafeArea(.all))
+            .background(Color.customWhite.edgesIgnoringSafeArea(.all))
             .navigationTitle("Profile")
         }
     }

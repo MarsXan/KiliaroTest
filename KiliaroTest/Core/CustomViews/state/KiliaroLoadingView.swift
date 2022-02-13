@@ -16,6 +16,9 @@ struct KiliaroLoadingView: View {
                 
                 ActivityIndicator(isAnimating: .constant(true), style: .large)
                 Text(title)
+                HStack{
+                    Spacer()
+                }
             }
             Spacer()
                

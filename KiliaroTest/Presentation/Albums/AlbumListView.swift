@@ -13,7 +13,6 @@ struct AlbumListView:View{
     @ObservedObject var viewModel = AlbumsViewModel()
     @State var selectedMedia:Media? = nil
     @State var showFullScreen:Bool = false
-    @State var loadView = false
     @Namespace var namespcae
     
     
@@ -36,27 +35,26 @@ struct AlbumListView:View{
                     
                     Text( DateTimeUtil.getDayAndmonth(time: selectedMedia!.createdAt ?? ""))
                     Spacer()
-                    if loadView{
+                    
                         HStack{
                             Button(action:{
                                 withAnimation(.spring()){
                                     showFullScreen.toggle()
-                                    loadView.toggle()
                                 }
                             }){
                                 Image(systemName: "xmark")
-                                    .foregroundColor(.white)
+                                    .foregroundColor(.customBlack)
                                     .padding()
-                                    .background(Color.black.opacity(0.3))
+                                    .background(Color.customBlack.opacity(0.3))
                                     .clipShape(Circle())
-                                    .minWidth(UIScreen.main.bounds.width)
+                                    .minWidth(UIScreen.main.bounds.width-32)
                                     
                             }
                         }
                         .padding(.bottom,16)
                         .padding(.horizontal)
-                    }
-                }.background(Color.white )
+                    
+                }.background(Color.customWhite )
             }else{
                 switch viewModel.state {
                     
@@ -79,10 +77,6 @@ struct AlbumListView:View{
                                 withAnimation(.spring()){
                                     selectedMedia = media
                                     showFullScreen.toggle()
-                                    
-                                    DispatchQueue.main.asyncAfter(deadline: .now()+0.2){
-                                        loadView.toggle()
-                                    }
                                 }
                             }.matchedGeometryEffect(id: media.id, in: namespcae)
                     })
@@ -93,7 +87,7 @@ struct AlbumListView:View{
                 
             }
         }
-        .background(Color.white.edgesIgnoringSafeArea(.all))
+        .background(Color.customWhite.edgesIgnoringSafeArea(.all))
         .statusBar(hidden: showFullScreen ? true : false)
         
     }

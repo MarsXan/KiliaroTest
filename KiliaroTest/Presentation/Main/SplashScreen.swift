@@ -11,7 +11,12 @@ struct SplashScreen: View {
     
     var body: some View {
         ZStack{
-            Image("logo")
+            VStack{
+                Spacer()
+                Image("logo")
+                HStack{Spacer()}
+                Spacer()
+            }
         }.background(Color.white.edgesIgnoringSafeArea(.all))
     }
 }

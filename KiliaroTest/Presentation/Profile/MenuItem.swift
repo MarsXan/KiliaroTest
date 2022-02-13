@@ -15,6 +15,7 @@ struct MenuItem: View {
         HStack{
             Image(icon)
                 .resizable()
+                .renderingMode(.template)
                 .width(.largeIconSize)
                 .height(.largeIconSize)
                 .foregroundColor(.iconColor)

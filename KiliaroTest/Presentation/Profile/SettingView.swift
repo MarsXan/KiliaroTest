@@ -9,6 +9,7 @@ import SwiftUI
 import Kingfisher
 
 struct SettingView: View {
+    @EnvironmentObject var viewModel: MainViewModel
     @Environment(\.presentationMode) var present
     @State var showSnnackBar = false
     var body: some View {
@@ -22,6 +23,7 @@ struct SettingView: View {
                 HStack(alignment:.top){
                     Image("Delete")
                         .resizable()
+                        .renderingMode(.template)
                         .width(.largeIconSize)
                         .height(.largeIconSize)
                         .foregroundColor(.iconColor)
@@ -55,7 +57,11 @@ struct SettingView: View {
             Spacer()
             
             
-        }.navigationBarTitle("", displayMode: .inline)
+        }
+        .onAppear{
+            viewModel.isBottomNavVisible = false
+        }
+        .navigationBarTitle("", displayMode: .inline)
             .navigationBarHidden(true)
             .navigationBarBackButtonHidden(true)
             .snackBar(isShowing: $showSnnackBar, text: Text("Cache cleared.")){

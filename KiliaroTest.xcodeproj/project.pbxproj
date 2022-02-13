@@ -11,6 +11,7 @@
 		823DF5F927B9814F0005D2E6 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DF5F527B9814F0005D2E6 /* empty.png */; };
 		823DF5FA27B9814F0005D2E6 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DF5F627B9814F0005D2E6 /* preview.png */; };
 		823DF5FB27B9814F0005D2E6 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DF5F727B9814F0005D2E6 /* error.png */; };
+		823DF5FF27B995120005D2E6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823DF5FE27B995120005D2E6 /* MainViewModel.swift */; };
 		8243488027B7ED4000C79157 /* KiliaroTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243487F27B7ED4000C79157 /* KiliaroTestApp.swift */; };
 		8243488227B7ED4000C79157 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243488127B7ED4000C79157 /* MainView.swift */; };
 		8243488427B7ED4300C79157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8243488327B7ED4300C79157 /* Assets.xcassets */; };
@@ -101,6 +102,7 @@
 		823DF5F527B9814F0005D2E6 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
 		823DF5F627B9814F0005D2E6 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 		823DF5F727B9814F0005D2E6 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		823DF5FE27B995120005D2E6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		8243487C27B7ED4000C79157 /* KiliaroTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiliaroTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8243487F27B7ED4000C79157 /* KiliaroTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliaroTestApp.swift; sourceTree = "<group>"; };
 		8243488127B7ED4000C79157 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 				8243487F27B7ED4000C79157 /* KiliaroTestApp.swift */,
 				8243488127B7ED4000C79157 /* MainView.swift */,
 				82F2B45B27B93BAA003A517A /* SplashScreen.swift */,
+				823DF5FE27B995120005D2E6 /* MainViewModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -649,6 +652,7 @@
 				824348EB27B8065A00C79157 /* ErrorRes.swift in Sources */,
 				824348DE27B8043500C79157 /* View+Ext.swift in Sources */,
 				824348D027B8025300C79157 /* HttpResponse.swift in Sources */,
+				823DF5FF27B995120005D2E6 /* MainViewModel.swift in Sources */,
 				824348E127B8047000C79157 /* Toast.swift in Sources */,
 				82F2B44F27B90D35003A517A /* KiliaroLoadingView.swift in Sources */,
 				824348C727B7FBDA00C79157 /* MediaType.swift in Sources */,

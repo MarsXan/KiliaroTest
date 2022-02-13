@@ -52,7 +52,7 @@ struct CustomTabView: View {
             }.padding(.top,.standardPaddingHalf)
             
             
-        }
+        }.padding(.bottom)
     }
 }
 
