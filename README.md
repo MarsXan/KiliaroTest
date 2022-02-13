@@ -16,7 +16,7 @@ This is a test project for [Kiliaro](https://kiliaro.com/) Team.
 - [Clean Architecture](https://www.youtube.com/watch?v=7EmboKQH8lM)
 - Observable Pattern
 - Repository Pattern
-- Singletone
+- Singleton
 
 
 ## App Packages
@@ -76,7 +76,7 @@ we can easily delete and add features to this package without any complaints by 
 - [Central State Handler](https://github.com/MarsXan/KiliaroTest/blob/main/KiliaroTest/Core/SharedModels/KiliaroState.swift)
 
 
-###States
+### States
 
 | Empty        | Error           | Loading           |
 | ------------- |:-------------:|:-------------:|
