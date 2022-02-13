@@ -73,3 +73,15 @@ we can easily delete and add features to this package without any complaints by 
 - [Central Error handler](https://github.com/MarsXan/KiliaroTest/blob/main/KiliaroTest/Core/Utils/ErrorUtil.swift)
 - [Central Network handler](https://github.com/MarsXan/KiliaroTest/blob/main/KiliaroTest/Core/Network/NetworkAgent.swift)
 - [Central State Handler](https://github.com/MarsXan/KiliaroTest/blob/main/KiliaroTest/Core/SharedModels/KiliaroState.swift)
+
+
+###States
+
+| Empty        | Error           | Loading           |
+| ------------- |:-------------:|:-------------:|
+| ![image](docAssetts/empty.png)      |  ![image](docAssetts/Error.png)  |  ![image](docAssetts/Loading.png)  | 
+
+
+- Preview for all View
+
+![image|320x271,50%](docAssetts/preview.png )
